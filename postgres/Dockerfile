@@ -1,5 +1,5 @@
 ARG POSTGRES_VERSION=alpine
-FROM postgres:${POSTGRES_VERSION}
+FROM postgres:16-alpine
 
 CMD ["postgres"]
 
